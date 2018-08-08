@@ -4,7 +4,9 @@ summer_olympics = {Sydney: "2000", Athens: "2004", Beijing:"2008", London: "2012
 summer_olympics[:Altanta] = "1996"
   puts summer_olympics
   
-summer_olympics.each 
+summer_olympics.each do |olympics|
+
+
 
 # def iterate_through_hash
 #   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
