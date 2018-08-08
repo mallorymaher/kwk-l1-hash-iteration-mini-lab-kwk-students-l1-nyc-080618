@@ -10,5 +10,4 @@ end
 
 summer_olympics.each do |place,year|
   puts place.upcase 
-  
 end
