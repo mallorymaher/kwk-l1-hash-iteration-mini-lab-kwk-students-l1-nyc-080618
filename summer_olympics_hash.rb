@@ -7,3 +7,4 @@ summer_olympics[:Altanta] = "1996"
 
 summer_olympics.each do |place, year|
  puts "The #{place} summer olympics took place in #{year}."
+end
