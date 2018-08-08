@@ -8,7 +8,7 @@ summer_olympics.each do |place, year|
  puts "The #{place} summer olympics took place in #{year}."
 end
 
-summer_olympics.each do |place|
+summer_olympics.each do |place,year|
   puts place.upcase 
   
 end
