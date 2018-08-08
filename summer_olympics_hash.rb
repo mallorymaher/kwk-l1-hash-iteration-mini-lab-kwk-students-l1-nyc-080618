@@ -1,14 +1,15 @@
 
-summer_olympics = {Sydney:, Athens:, Beijing:, London: }
+summer_olympics = {Sydney: "2000", Athens: "2004", Beijing: "2008", London: "2012"}
 
-summer_olympics[:Altanta] = "1996"
+summer_olympics[:Altanta] = "1996" 
   puts summer_olympics
-  
-summer_olympics.each do |summer_olympics|
- puts "The 
 
 
-summer_olympics_years = {"2000", "2004", "2008", "2012"}
+summer_olympics.each do |place, year|
+ puts "The #{place} summer olympics took place in #{year}."
+
+
+
 
 
 # def iterate_through_hash
